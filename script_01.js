@@ -69,31 +69,46 @@
 // }
 
 /******** Fallunterscheidung / Case | Switch 1 *******/
-const firstName = "Jane";
-let job;
+// const firstName = "Jane";
+// let job;
 
 // job = "driver"; // ..fährt TAXI! / UBER
 // job = "diver"; // .. taucht im Rhein!
 // job = "artist"; // .. malt ein Bild!
-job = "pilot"; // .. fliegt das Flugzeug!
+// job = "pilot"; // .. fliegt das Flugzeug!
 // job = "nichts"; // .. macht etwas anderes!
 
-switch (job) 
-{
-    case "driver":   // Test auf == (Gleichheit)
-        console.log(firstName + " fährt TAXI!");
-        break;
-    case "diver":    // Test auf == (Gleichheit)
-        console.log(firstName + " taucht im Rhein!"); 
-        break;
-    case "artist":   // Test auf == (Gleichheit)
-        console.log(firstName + " malt ein Bild!"); 
-        break;
-    case "pilot":    // Test auf == (Gleichheit)
-        console.log(firstName + " fliegt das Flugzeug!");
-        break; 
+// switch (job) 
+// {
+//     case "driver":   // Test auf == (Gleichheit)
+//         console.log(firstName + " fährt TAXI!");
+//         break;
+//     case "diver":    // Test auf == (Gleichheit)
+//         console.log(firstName + " taucht im Rhein!"); 
+//         break;
+//     case "artist":   // Test auf == (Gleichheit)
+//         console.log(firstName + " malt ein Bild!"); 
+//         break;
+//     case "pilot":    // Test auf == (Gleichheit)
+//         console.log(firstName + " fliegt das Flugzeug!");
+//         break; 
 
-    default:  // Black Swan = das unerwartete Ereignis
-        console.log(firstName + " macht etwas anderes!"); 
+//     default:  // Black Swan = das unerwartete Ereignis
+//         console.log(firstName + " macht etwas anderes!"); 
+//         break;
+// }
+
+/******** Fallunterscheidung / Case | Switch 2 *******/
+
+const a = 2;
+
+switch (true)
+ {
+    case (a == 1):
+        console.log("a ist 1");
+        break;
+    case (a == 2):
+        console.log("a ist 2");
+    default:
         break;
 }
