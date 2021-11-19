@@ -75,7 +75,7 @@ let job;
 // job = "driver"; // ..fährt TAXI! / UBER
 // job = "diver"; // .. taucht im Rhein!
 // job = "artist"; // .. malt ein Bild!
-// job = "pilot"; // .. fliegt das Flugzeug!
+job = "pilot"; // .. fliegt das Flugzeug!
 // job = "nichts"; // .. macht etwas anderes!
 
 switch (job) 
